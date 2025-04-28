@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+      padding: 15px;
+    direction: rtl;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    background: #ffffff;
+      padding: 25px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+.question p {
+    font-weight: bold;
+    color: #666;
+}
+
+label {
+    margin-right: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #004080;
+}
+
+.natiga {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: #d9e2e9;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* تصميم للموبايل */
+@media (max-width: 600px) {
+    .container {
+        padding: 8px;
+    }
+
+    button {
+        font-size: 13px;
+    }
+
+    .question p {
+        font-size: 13px;
+    }
+}

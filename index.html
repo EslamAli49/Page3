@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار استعداد السفر - إسلام علي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>اختبار: إنت جاهز للسفر ولا لسه؟</h1>
+        <form id="myForm">
+            <!-- سؤال أول -->
+            <div class="question">
+                <p>١- بتحضّر شنطتك قبل السفر بيوم على الأقل؟</p>
+                <label><input type="radio" name="s1" value="1"> أيوه</label><br>
+                <label><input type="radio" name="s1" value="0"> لأ</label><br>
+                <label><input type="radio" name="s1" value="0"> أحيانًا</label>
+            </div>
+
+            <!-- سؤال تاني -->
+            <div class="question">
+                <p>٢- بتعرف لغة البلد اللي هتسافر لها؟</p>
+                <label><input type="radio" name="s2" value="1"> أيوه</label><br>
+                <label><input type="radio" name="s2" value="0"> لأ</label><br>
+                <label><input type="radio" name="s2" value="0"> شوية</label>
+            </div>
+
+            <!-- سؤال تالت -->
+            <div class="question">
+                <p>٣- بتحجز فندق قبل ما تسافر؟</p>
+                <label><input type="radio" name="s3" value="1"> أيوه</label><br>
+                <label><input type="radio" name="s3" value="0"> لأ</label><br>
+                <label><input type="radio" name="s3" value="0"> أحيانًا</label>
+            </div>
+
+            <!-- سؤال رابع -->
+            <div class="question">
+                <p>٤- بتخطط لكل يوم في الرحلة؟</p>
+                <label><input type="radio" name="s4" value="1"> أيوه</label><br>
+                <label><input type="radio" name="s4" value="0"> لأ</label><br>
+                <label><input type="radio" name="s4" value="0"> أحيانًا</label>
+            </div>
+
+            <!-- سؤال خامس -->
+            <div class="question">
+                <p>٥- بتعمل تأمين سفر؟</p>
+                <label><input type="radio" name="s5" value="1"> أيوه</label><br>
+                <label><input type="radio" name="s5" value="0"> لأ</label><br>
+                <label><input type="radio" name="s5" value="0"> مش عارف</label>
+            </div>
+
+            <!-- سؤال سادس -->
+            <div class="question">
+                <p>٦- بتتأكد من جواز السفر قبل السفر؟</p>
+                <label><input type="radio" name="s6" value="1"> أيوه</label><br>
+                <label><input type="radio" name="s6" value="0"> لأ</label><br>
+                <label><input type="radio" name="s6" value="0"> أحيانًا</label>
+            </div>
+
+            <!-- سؤال سابع -->
+            <div class="question">
+                <p>٧- بتاخد فلوس كافية معاك؟</p>
+                <label><input type="radio" name="s7" value="1"> أيوه</label><br>
+                <label><input type="radio" name="s7" value="0"> لأ</label><br>
+                <label><input type="radio" name="s7" value="0"> أحيانًا</label>
+            </div>
+
+            <!-- سؤال تامن -->
+            <div class="question">
+                <p>٨- بتحب تجرب أكل جديد وإنت مسافر؟</p>
+                <label><input type="radio" name="s8" value="1"> أيوه</label><br>
+                <label><input type="radio" name="s8" value="0"> لأ</label><br>
+                <label><input type="radio" name="s8" value="0"> أحيانًا</label>
+            </div>
+
+            <!-- سؤال تاسع -->
+            <div class="question">
+                <p>٩- بتشتري هدايا تذكارية من السفر؟</p>
+                <label><input type="radio" name="s9" value="1"> أيوه</label><br>
+                <label><input type="radio" name="s9" value="0"> لأ</label><br>
+                <label><input type="radio" name="s9" value="0"> أحيانًا</label>
+            </div>
+
+            <!-- سؤال عاشر -->
+            <div class="question">
+                <p>١٠- بتصور كل حاجة وإنت في الرحلة؟</p>
+                <label><input type="radio" name="s10" value="1"> أيوه</label><br>
+                <label><input type="radio" name="s10" value="0"> لأ</label><br>
+                <label><input type="radio" name="s10" value="0"> أحيانًا</label>
+            </div>
+
+            <!-- سؤال حادي عشر -->
+            <div class="question">
+                <p>١١- بتحب تسافر خفيف؟</p>
+                <label><input type="radio" name="s11" value="1"> أيوه</label><br>
+                <label><input type="radio" name="s11" value="0"> لأ</label><br>
+                <label><input type="radio" name="s11" value="0"> أحيانًا</label>
+            </div>
+
+            <button type="button" onclick="hasabNatiga()">اعرف إنت جاهز ولا لأ!</button>
+        </form>
+
+        <div id="natiga" class="natiga"></div>
+    </div>
+
+    <!-- كتبته إسلام علي يدوي -->
+    <script src="script.js"></script>
+</body>
+</html>
